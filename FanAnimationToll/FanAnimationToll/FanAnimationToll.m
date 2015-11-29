@@ -298,8 +298,19 @@ NSNumber*fan_DegreesToNumber(CGFloat degrees) {
         }
     }
     return CGRectMake(x, y, v.frame.size.width, v.frame.size.height);
+    
 }
 
-
+#pragma mark - 版本2.0动画
+//+(CASpringAnimation *)fan_springAnimation{
+//    
+//    CASpringAnimation *springAnimation=[CASpringAnimation animationWithKeyPath:@"position"];
+//    //springAnimation.mass=5;
+//    springAnimation.duration=1;
+//    springAnimation.stiffness=200;
+//    springAnimation.damping=2;
+//    //springAnimation.initialVelocity=20;
+//    return springAnimation;
+//}
 
 @end
